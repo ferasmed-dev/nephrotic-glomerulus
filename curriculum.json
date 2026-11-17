@@ -1,0 +1,15 @@
+{
+  "topic": "Nephrotic syndrome and the glomerulopathies that cause it",
+  "topic_es": "Síndrome nefrótico y glomerulopatías que lo causan",
+  "system": "Renal / urinary",
+  "specialty": "Nephrology",
+  "eciModule": "Formación clínica humana",
+  "typicalSubjects": ["Nefrología", "Patología médica", "Fisiopatología", "Anatomía patológica", "Fisiología", "Pediatría"],
+  "mirRelevant": true,
+  "keywords_es": ["síndrome nefrótico", "proteinuria selectiva", "cambios mínimos", "GESF", "glomeruloesclerosis focal y segmentaria", "nefropatía membranosa", "anti-PLA2R", "regla de los tercios", "GN membranoproliferativa", "glomerulopatía C3", "enfermedad por depósitos densos", "nefropatía diabética", "Kimmelstiel-Wilson", "amiloidosis", "rojo Congo", "podocito", "barrera de filtración", "trombosis de vena renal"],
+  "keywords_en": ["nephrotic syndrome", "selective proteinuria", "minimal change disease", "FSGS", "focal segmental glomerulosclerosis", "membranous nephropathy", "anti-PLA2R", "rule of thirds", "membranoproliferative GN", "C3 glomerulopathy", "dense deposit disease", "diabetic kidney disease", "Kimmelstiel-Wilson", "amyloidosis", "Congo red", "podocyte", "filtration barrier", "renal vein thrombosis"],
+  "languages": ["es", "en"],
+  "type": "interactive atlas and simulator",
+  "related": ["https://ferasmed-dev.github.io/nephritic-glomerulus/"],
+  "url": "https://ferasmed-dev.github.io/nephrotic-glomerulus/"
+}

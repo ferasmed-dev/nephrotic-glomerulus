@@ -1,0 +1,11 @@
+{
+  "name": "nephrotic-glomerulus",
+  "version": "1.0.0",
+  "description": "Interactive glomerulus showing every nephrotic-syndrome entity: podocyte and basement-membrane lesions, immunofluorescence, a filtration-barrier sieve, a rotatable 3D capillary loop and treatment courses (ES/EN).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "author": "Feras Elhissi"
+}

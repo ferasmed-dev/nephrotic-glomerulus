@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glomérulo nefrótico interactivo</title>
+  <meta name="description" content="Todas las causas del síndrome nefrótico en un mismo glomérulo: podocito, membrana basal, inmunofluorescencia, barrera de filtración, asa capilar en 3D y analítica frente a la normalidad. Herramienta docente.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='16' rx='14' ry='13' fill='%23f3ece0' stroke='%238a8273' stroke-width='2'/%3E%3Ccircle cx='11' cy='12' r='5' fill='%23fbe3e1' stroke='%2312a35a' stroke-width='2' stroke-dasharray='2 1'/%3E%3Ccircle cx='21' cy='12' r='5' fill='%23fbe3e1' stroke='%23c2b3e6' stroke-width='2.4'/%3E%3Ccircle cx='11' cy='21' r='5' fill='%23fbe3e1' stroke='%23c2b3e6' stroke-width='2.4'/%3E%3Ccircle cx='21' cy='21' r='5' fill='%23fbe3e1' stroke='%2312a35a' stroke-width='2' stroke-dasharray='2 1'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1 id="title">Glomérulo nefrótico interactivo</h1>
+      <p id="subtitle"></p>
+      <a class="seealso" id="seeAlso" href="https://ferasmed-dev.github.io/nephritic-glomerulus/"></a>
+    </div>
+    <div class="topctl">
+      <button type="button" class="btn ghost" id="copy">Copiar enlace</button>
+      <div class="langs" role="group" aria-label="Idioma / Language">
+        <button type="button" class="langbtn" data-lang="es">ES</button>
+        <button type="button" class="langbtn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" class="tab" data-mode="explore">Explorar</button>
+    <button type="button" role="tab" class="tab" data-mode="compare">Comparar</button>
+    <button type="button" role="tab" class="tab" data-mode="quiz">Diagnosticar</button>
+    <span class="hint" id="hint"></span>
+  </nav>
+  <main id="app"></main>
+  <footer>
+    <strong id="footer">Herramienta docente · no apta para uso clínico</strong>
+    <span id="footerModel"></span>
+  </footer>
+  <script type="module" src="src/ui.js"></script>
+</body>
+</html>
